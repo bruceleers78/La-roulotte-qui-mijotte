@@ -13,7 +13,7 @@
 }
 
 header {
-  height: 130vh;
+  height: 125vh;
   background-image: url(photos/colored-vegetables-on-white-background.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -35,7 +35,7 @@ header:before {
   padding: 10px;
 }
 .reseaux-sociaux img:hover {
-  height: 100px;
+  height: 80px;
   padding: 10px;
 }
 
@@ -57,7 +57,7 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 15px 25px;
+  padding: 0px 15px;
   overflow: auto;
   /* height: 15%; */
   /* background: #fafafa; */
@@ -144,17 +144,43 @@ button {
 h1 {
   font-family: Swistblnk Monthoers Regular;
   color: #efede6;
+  text-align: center;
+  font-size: clamp(25px, 5vw, 40px);
 }
 h2 {
   font-family: Swistblnk Monthoers Regular;
   color: #408dcf;
-  font-size: 30px;
+  font-size: clamp(10px, 3vw, 35px);
+  text-align: center;
 }
 h3 {
-  font-size: 25px;
-  padding: 30px;
+  font-size: clamp(10px, 3vw, 25px);
+  padding: 20px;
   font-family: Swistblnk Monthoers Regular;
   color: #408dcf;
+}
+h4 {
+  font-size: clamp(10px, 3vw, 25px);
+  padding: 20px;
+  font-family: Swistblnk Monthoers Regular;
+  color: black;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+  margin-left: 3vw;
+  text-align: left;
+}
+h5 {
+  font-size: clamp(20px, 4vw, 35px);
+  padding: 20px;
+  font-family: Swistblnk Monthoers Regular;
+  color: #ffffff;
+}
+h7 {
+  
+  font-size: clamp(20px, 4vw, 35px);
+  padding: 20px;
+  font-family: Swistblnk Monthoers Regular;
+  color: #ffffff;
 }
 #jour {
   padding: 10px;
@@ -167,7 +193,7 @@ h3 {
 .logo img {
   z-index: 999;
   position: relative;
-  width: 300px;
+  width: 18%;
 }
 .logo {
   z-index: 999;
@@ -176,22 +202,24 @@ h3 {
 .blockpage1 {
   display: flex;
   justify-content: space-evenly;
+  height: 50%;
 }
 
 .emplacement-jour {
   width: 25%;
-  height: 450px;
+ overflow: hidden;
   z-index: 999;
   background-color: #efede6;
   padding: 20px;
-  margin: 30px;
+  margin: 35px;
   border-radius: 15px;
   text-align: center;
   border: 4px solid #408dcf;
 }
 .emplacement-jour iframe {
-  width: 80%;
-  height: 200px;
+  max-width: 80%;
+  height: 50%;
+  padding-top: 3vh;
 }
 .menu-de-la-semaine {
   display: flex;
@@ -205,6 +233,9 @@ h3 {
   border-radius: 15px;
   text-align: center;
   border: 4px solid #efede6;
+  font-family: Swistblnk Monthoers Regular;
+  color: #efede6;
+  font-size: 1.4rem;
   /* position: relative; */
 }
 .actualite {
@@ -214,22 +245,29 @@ h3 {
   padding: 20px;
   margin: 30px;
   border-radius: 15px;
-  text-align: center;
   border: 4px solid #408dcf;
+}
+
+.actualite ul {
+  padding: 5%;
+  padding-top: 10%;
+  color: #408dcf;
+  padding-left: 20%;
+  
 }
 
 .lienscription {
   background-color: #efede6;
   width: 90%;
-  height: 60px;
+  height: 15%;
   color: #408dcf;
   border-radius: 15px;
-  /* position:absolute; */
+
   margin: 0 auto;
-  padding: auto;
+  padding: 4px;
   display: inline-block;
   border: none;
-  font-size: 20px;
+  font-size: clamp(2px, 1vw, 18px);
 }
 
 .lienscription:hover {
@@ -237,6 +275,7 @@ h3 {
   border: 4px solid #000000;
 }
 .telephone {
+  z-index: 9999;
   position: relative;
   padding: 10px;
   width: 30%;
@@ -269,16 +308,17 @@ h3 {
 .fleche {
   text-align: center;
   position: relative;
-  top: -35px;
+  top: -3.5%;
 }
 
 .fleche img {
   background-color: #408dcf;
   width: 70px;
   border-radius: 50px;
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.61);
 }
 
-.blockpage2 {
+#blockpage2 {
   display: flex;
 }
 
@@ -287,33 +327,151 @@ h3 {
   position: relative;
 }
 .blockpage2left img {
-  width: 370px;
+  max-width: 50%;
+  height: auto;
   border-radius: 15px;
 }
 
 .blockpage2right {
   width: 50%;
-  height: 600px;
+  height: 70vh;
   background-color: #efede6;
   border-radius: 15px;
   border: #408dcf solid 8px;
   margin: 30px;
-  margin-top: 20px;
+  margin-top: 40px;
+  text-align: center;
+   color: #408dcf;
+  overflow: hidden;
 }
 .blockpage2left {
   margin: 20px;
   margin-top: 20px;
+  
 }
 .photos1block2 {
   position: absolute;
-  top: 70px;
-  left: 300px;
+  top: 15%;
+  left: 40%;
 }
 .photos2block2 {
   position: absolute;
-  top: 300px;
-  left: 30px;
+  top: 50%;
+  left: 10%;
 }
+.blockpage2right img {
+  margin-top: 2vw;
+  max-width: 20%;
+  width: auto;
+  
+}
+.blockpage2right p {
+  margin-top: 3vw;
+  line-height: 2em;
+}
+@keyframes planete {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.planete {
+  animation: planete 10s linear infinite;
+}
+
+#blockpage3 {
+  height: 110vh;
+  background-color: #408dcf;
+  margin-top: 6vw;
+  padding-top: 2vw;
+}
+
+.second {
+  top: -5% !important;
+}
+.tierce {
+  top: 17% !important;
+  z-index: 1000;
+}
+.block3images {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 5vh;
+  }
+
+.block3images img{
+  border-radius: 15px;
+  border: #efede6 5px solid;
+}
+.texteevenement{
+  padding: 30px;
+  color: #408dcf;
+  width: 75%;
+  background-color:#D9D9D9;
+  text-align: center;
+  margin: auto;
+  height: 15vh;
+  border-radius: 15px;
+  border:white solid 3px ;
+  font-size: clamp(10px, 3vw, 25px);
+  font-weight: 600;
+  vertical-align: middle;
+  margin-bottom: 5vh;
+}
+.telephone2 {
+  z-index: 9999;
+  position: relative;
+  padding: 10px;
+  width: 30%;
+  margin: auto;
+
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px;
+  border: #408dcf solid 4px;
+  background-color: #efede6;
+  font-weight: 700;
+}
+.telephone2 a {
+  text-decoration: none;
+  letter-spacing: 0px;
+  color: #408dcf;
+  padding-left: 30px;
+}
+
+.telephone2 img {
+  width: 50px;
+  padding-right: 20px;
+}
+
+.blockpage4haute {
+  height: 125vh;
+  background-image: url(photos/raw-chicken-fillet-with-garlic-pepper-and-rosemary-on-wooden-on-chopping-board.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  /* background-position: 0px 00px; */
+  
+}
+.blockpage4haute:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #408dcf;
+  opacity: 0.4;
+}
+
+.blockpage4hautetexte{
+  padding-top: 10vh;
+  position: relative;
+  text-align: center;
+}
+
 /* 
 .navlinks-container a::after {
   content: "";
