@@ -9,12 +9,12 @@
   font-family: "Swistblnk Monthoers Regular";
   font-style: normal;
   font-weight: normal;
-  src: url(font/Monthoers.woff) format("woff");
+  src: url(/font/Monthoers.woff) format("woff");
 }
 
 header {
   height: 130vh;
-  background-image: url(photos/colored-vegetables-on-white-background.jpg);
+  background-image: url(/photos/colored-vegetables-on-white-background.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
