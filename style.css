@@ -176,7 +176,6 @@ h5 {
   color: #ffffff;
 }
 h7 {
-  
   font-size: clamp(20px, 4vw, 35px);
   padding: 20px;
   font-family: Swistblnk Monthoers Regular;
@@ -207,7 +206,7 @@ h7 {
 
 .emplacement-jour {
   width: 25%;
- overflow: hidden;
+  overflow: hidden;
   z-index: 999;
   background-color: #efede6;
   padding: 20px;
@@ -242,18 +241,18 @@ h7 {
   width: 25%;
   z-index: 999;
   background-color: #efede6;
-  padding: 20px;
+  padding: 10px;
   margin: 30px;
   border-radius: 15px;
   border: 4px solid #408dcf;
 }
 
-.actualite ul {
+.actualite > ul {
   padding: 5%;
   padding-top: 10%;
   color: #408dcf;
-  padding-left: 20%;
-  
+  padding-left: 15%;
+  font-size: clamp(10px, 4vw, 20px);
 }
 
 .lienscription {
@@ -308,7 +307,7 @@ h7 {
 .fleche {
   text-align: center;
   position: relative;
-  top: -3.5%;
+  top: -3%;
 }
 
 .fleche img {
@@ -341,13 +340,12 @@ h7 {
   margin: 30px;
   margin-top: 40px;
   text-align: center;
-   color: #408dcf;
+  color: #408dcf;
   overflow: hidden;
 }
 .blockpage2left {
   margin: 20px;
   margin-top: 20px;
-  
 }
 .photos1block2 {
   position: absolute;
@@ -363,7 +361,6 @@ h7 {
   margin-top: 2vw;
   max-width: 20%;
   width: auto;
-  
 }
 .blockpage2right p {
   margin-top: 3vw;
@@ -389,10 +386,10 @@ h7 {
 }
 
 .second {
-  top: -5% !important;
+  top: -7% !important;
 }
 .tierce {
-  top: 17% !important;
+  top: 15% !important;
   z-index: 1000;
 }
 .block3images {
@@ -401,22 +398,24 @@ h7 {
   justify-content: space-evenly;
   text-align: center;
   margin-bottom: 5vh;
-  }
+  width: 100%;
+}
 
-.block3images img{
+.block3images img {
   border-radius: 15px;
   border: #efede6 5px solid;
+  width: 100%;
 }
-.texteevenement{
+.texteevenement {
   padding: 30px;
   color: #408dcf;
   width: 75%;
-  background-color:#D9D9D9;
+  background-color: #d9d9d9;
   text-align: center;
   margin: auto;
   height: 15vh;
   border-radius: 15px;
-  border:white solid 3px ;
+  border: white solid 3px;
   font-size: clamp(10px, 3vw, 25px);
   font-weight: 600;
   vertical-align: middle;
@@ -449,13 +448,12 @@ h7 {
 }
 
 .blockpage4haute {
-  height: 125vh;
+  height: 65vh;
   background-image: url(photos/raw-chicken-fillet-with-garlic-pepper-and-rosemary-on-wooden-on-chopping-board.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   /* background-position: 0px 00px; */
-  
 }
 .blockpage4haute:before {
   position: absolute;
@@ -466,13 +464,34 @@ h7 {
   opacity: 0.4;
 }
 
-.blockpage4hautetexte{
-  padding-top: 10vh;
+.blockpage4hautetexte {
+  padding-top: 7vh;
   position: relative;
   text-align: center;
 }
 
+.blockpage4hautephotos {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.blockpage4hautephotos img {
+  margin: 07vh;
+  max-width: 30%;
+  width: 100%;
+}
+
+.blockpage4basse {
+  height: 180vh;
+  background-color: white;
+}
+.blockpage4bassephotos img {
+  margin: 4vh;
+  width: 90%;
+}
+
 /* 
+
 .navlinks-container a::after {
   content: "";
   display: block;
