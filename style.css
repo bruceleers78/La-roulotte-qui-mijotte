@@ -156,6 +156,13 @@ h3 {
   font-family: Swistblnk Monthoers Regular;
   color: #408dcf;
 }
+#jour{
+  padding: 10px;
+  margin-top: 20px;
+  font-family: Swistblnk Monthoers Regular;
+  color: #408dcf;
+  font-size: 25px;
+}
 
 .logo img {
   z-index: 999;
@@ -173,7 +180,7 @@ h3 {
 
 .emplacement-jour {
   width: 25%;
-  height: 400px;
+  height: 450px;
   z-index: 999;
   background-color: #efede6;
   padding: 20px;
