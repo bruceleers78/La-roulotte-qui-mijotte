@@ -14,7 +14,7 @@
 
 header {
   height: 130vh;
-  background-image: url(/photos/colored-vegetables-on-white-background.jpg);
+  background-image: url(photos/colored-vegetables-on-white-background.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -156,7 +156,7 @@ h3 {
   font-family: Swistblnk Monthoers Regular;
   color: #408dcf;
 }
-#jour{
+#jour {
   padding: 10px;
   margin-top: 20px;
   font-family: Swistblnk Monthoers Regular;
@@ -278,43 +278,40 @@ h3 {
   border-radius: 50px;
 }
 
-.blockpage2{
-display: flex
-
+.blockpage2 {
+  display: flex;
 }
 
-.blockpage2left{
-width: 50%;
-position: relative;
+.blockpage2left {
+  width: 50%;
+  position: relative;
 }
-.blockpage2left img{
+.blockpage2left img {
   width: 370px;
   border-radius: 15px;
-  
 }
 
-.blockpage2right{
-width: 50%;
-height: 600px;
-background-color: #efede6;
-border-radius: 15px;
-border: #408dcf solid 8px;
-margin: 30px;
-margin-top: 20px;
+.blockpage2right {
+  width: 50%;
+  height: 600px;
+  background-color: #efede6;
+  border-radius: 15px;
+  border: #408dcf solid 8px;
+  margin: 30px;
+  margin-top: 20px;
 }
-.blockpage2left{
-margin: 20px;
-margin-top: 20px;
-
+.blockpage2left {
+  margin: 20px;
+  margin-top: 20px;
 }
-.photos1block2{
+.photos1block2 {
   position: absolute;
-  top:70px;
+  top: 70px;
   left: 300px;
 }
-.photos2block2{
+.photos2block2 {
   position: absolute;
-  top:300px;
+  top: 300px;
   left: 30px;
 }
 /* 
