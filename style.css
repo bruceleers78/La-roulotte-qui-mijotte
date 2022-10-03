@@ -277,6 +277,46 @@ h3 {
   width: 70px;
   border-radius: 50px;
 }
+
+.blockpage2{
+display: flex
+
+}
+
+.blockpage2left{
+width: 50%;
+position: relative;
+}
+.blockpage2left img{
+  width: 370px;
+  border-radius: 15px;
+  
+}
+
+.blockpage2right{
+width: 50%;
+height: 600px;
+background-color: #efede6;
+border-radius: 15px;
+border: #408dcf solid 8px;
+margin: 30px;
+margin-top: 20px;
+}
+.blockpage2left{
+margin: 20px;
+margin-top: 20px;
+
+}
+.photos1block2{
+  position: absolute;
+  top:70px;
+  left: 300px;
+}
+.photos2block2{
+  position: absolute;
+  top:300px;
+  left: 30px;
+}
 /* 
 .navlinks-container a::after {
   content: "";
