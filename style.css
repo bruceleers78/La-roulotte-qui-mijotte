@@ -9,7 +9,7 @@
   font-family: "Swistblnk Monthoers Regular";
   font-style: normal;
   font-weight: normal;
-  src: url(/font/Monthoers.woff) format("woff");
+  src: url(font/Monthoers.woff) format("woff");
 }
 
 header {
